@@ -136,3 +136,65 @@ span {
 .svgheader:hover{
   fill: #2196f3;
 }
+
+.section-button{
+width: 128px;
+height: 50px;
+border: 1px solid transparent;
+background-color: #F5F4FA;
+border-radius: 4px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 23px;
+padding-right: 23px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 3%;
+text-align: center;
+margin-right: 8px;
+
+}
+.btn-list{
+    display: flex;
+    justify-content: center;
+}
+.section-button:hover{
+background-color: #2196f3;
+color: white;
+}
+
+
+/*--------section1-----------------------*/
+.kriack-underttl-item{
+font-family: "Roboto"sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 6%;
+color: #212121;
+margin-bottom: 4px;
+}
+.kriack-img-item{
+width: 370;
+height: 294;
+}
+.kriach-text-item{
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+.kriack-underttl-item{
+    padding-left: 24px;
+}
+.kriach-list{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.kriack-item{
+  margin-right: 30px;
+  margin-top: 34px;
+  border: 1px solid #EEEEEE;
+}
