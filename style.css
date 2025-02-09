@@ -1,4 +1,22 @@
 
+:root {
+  --axent: #2196f3;
+  --background: #2f303a;
+  --border: #eeeeee;
+  --text: #757575;
+  --section: #f5f4fa;
+  --maintext: #ffffff;
+  --firstlogo: #000000;
+}
+a {
+  text-decoration: none;
+  color: var(--firstlogo);
+  font-style: normal;
+}
+a:hover {
+  color: var(--axent);
+}
+
 h1.h2,h3,h4,p,ul,li,input,button,img,a,h4{
    margin: 0;
    padding: 0;
@@ -110,4 +128,11 @@ span {
 .nav-adress:hover,
 .nav-adress:focus {
   color: #2196f3;
-}g
+}
+.svgheader{
+  fill:#757575;
+  
+}
+.svgheader:hover{
+  fill: #2196f3;
+}
