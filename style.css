@@ -1,8 +1,12 @@
-h1,h2,h3,h4,h5,h6,ul,li,div,img,a,form,label{
-    margin: 0 auto;
-    padding: 0 auto;
+
+h1.h2,h3,h4,p,ul,li,input,button,img,a,h4{
+   margin: 0;
+   padding: 0;
 }
 
 a{
-    
+    text-decoration: none;
+}
+ul{
+    list-style: none;
 }
