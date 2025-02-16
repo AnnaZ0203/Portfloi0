@@ -199,11 +199,16 @@ height: 294;
   margin-right: 30px;
   margin-top: 34px;
   border: 1px solid #EEEEEE;
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.kriack-item:hover{
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 /*foooooootererer*/
 .footer {
   background-color: #2f303a;
+  margin-top: 20px;
 
 }
 span {
