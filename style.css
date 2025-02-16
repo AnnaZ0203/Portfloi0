@@ -30,7 +30,9 @@ ul{
 }
 .container {
   width: 1200px;
-  padding: 0 15px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   outline: 1px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -197,4 +199,124 @@ height: 294;
   margin-right: 30px;
   margin-top: 34px;
   border: 1px solid #EEEEEE;
+}
+
+/*foooooootererer*/
+.footer {
+  background-color: #2f303a;
+
+}
+span {
+  color: rgb(39, 123, 179);
+}
+.footer-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 10px;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  background-color: rgb(201, 198, 198);
+}
+.footer-item-adrs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer-item #cls {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color: #ffffff99;
+  padding-bottom: 10px;
+}
+.footer-s-title {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer-svg {
+
+width: 20px;
+height: 20px;
+fill: white;
+margin-right: 12px;
+
+}
+.footer-svg:hover{
+  fill: #2196f3;
+}
+
+.svg-wrap {
+  position: relative;
+  left: 300px;
+  top: -126px;
+}
+
+/*-----------next section-------*/
+
+.subscribe {
+font-family: "Roboto",sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+color: white;
+margin-bottom: 20px;
+}
+.email {
+  background-color: #2F303A;
+  width: 358px;
+height: 50px;
+padding-left: 10px;
+border-radius: 4px;
+margin-right: 12px;
+}
+.button-footer{
+width: 200px;
+height: 50px;
+background-color: #2196F3;
+font-family: "Roboto",sans-serif;
+color: white;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+.form-footer{
+
+}
+.wrapchk{
+  display: flex;
+}
+.footer-t-s{
+  position: relative;
+  left: 500px;
+  top: -187px;
 }
