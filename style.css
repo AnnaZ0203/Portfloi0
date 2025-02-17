@@ -211,8 +211,8 @@ overflow: hidden;
 }
 .overlay{
 width: 100%;
-height: 100%;
-background-color: #2195f3a4;
+height:100% ;
+background-color:#2195f3d5;
 position: absolute;
 color: #F5F4FA;
 bottom: 0;
@@ -220,6 +220,16 @@ transform: translateY(370px);
 }
 .box-kriack:hover .overlay{
   transform: translateY(0px);
+}
+.kriack-text{
+ font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 3%;
+text-align: left;
+margin-top: 63px;
+margin-left: 24px;
 }
 /*foooooootererer*/
 .footer {
